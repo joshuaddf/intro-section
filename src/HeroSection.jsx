@@ -3,11 +3,11 @@ const HeroSection = () => {
     <div className="flex justify-center items-center flex-col font-[epilogue] lg:flex-row-reverse lg:px-[10rem] lg:h-[100vh] lg:mt-[3rem] lg:gap-[8rem]">
 
       <div className="mt-[2rem] lg:hidden">
-        <img src="public/images/image-hero-mobile.png" />
+        <img src="/images/image-hero-mobile.png" />
       </div>
 
       <div className="hidden lg:block">
-        <img className="h-[73vh] w-[53vw] translate-y-[-20%]" src="public/images/image-hero-desktop.png" />
+        <img className="h-[73vh] w-[53vw] translate-y-[-20%]" src="/images/image-hero-desktop.png" />
       </div>
       
       <div className="flex items-center lg:items-start lg:justify-start flex-col lg:translate-y-[-22%] lg:w-[70vw]">
